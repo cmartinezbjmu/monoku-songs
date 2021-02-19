@@ -10,13 +10,19 @@ class Artist(models.Model):
         """Table name."""
         db_table = 'artist'
 
+    def __str__(self):
+        return self.name        
+
 class Band(models.Model):
     name = models.CharField(max_length=150, blank=False, null=False)
-    artist = models.ForeignKey(Artist, on_delete=models.CASCADE, related_name="band_artist")
+    artist = models.ForeignKey(Artist, on_delete=models.CASCADE, related_name="band_artist", blank=True, null=True)
 
     class Meta:
         """Table name."""
         db_table = 'band'
+
+    def __str__(self):
+        return self.name        
 
 class Album(models.Model):
     name = models.CharField(max_length=150, blank=False, null=False)
@@ -27,6 +33,9 @@ class Album(models.Model):
         """Table name."""
         db_table = 'album'
 
+    def __str__(self):
+        return self.name        
+
 
 class Genre(models.Model):
     name = models.CharField(max_length=150, blank=False, null=False)
@@ -35,12 +44,18 @@ class Genre(models.Model):
         """Table name."""
         db_table = 'genre'
 
+    def __str__(self):
+        return self.name        
+
 class Subgenre(models.Model):
     name = models.CharField(max_length=150, blank=False, null=False)
 
     class Meta:
         """Table name."""
         db_table = 'subgenre'
+
+    def __str__(self):
+        return self.name        
 
 
 class Song(models.Model):
@@ -54,4 +69,7 @@ class Song(models.Model):
     class Meta:
         """Table name."""
         db_table = 'song'
+
+    def __str__(self):
+        return self.name        
 
