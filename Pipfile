@@ -15,6 +15,7 @@ pylint-django = "*"
 pylint-plugin-utils = "*"
 coverage = "*"
 unittest-xml-reporting = "*"
+django-filter = "*"
 
 [requires]
 python_version = "3.8"
