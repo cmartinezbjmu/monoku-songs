@@ -69,7 +69,7 @@ class Song(models.Model):
     class Meta:
         """Table name."""
         db_table = 'song'
+        ordering = ('name',)
 
     def __str__(self):
-        return self.name        
-
+        return self.name

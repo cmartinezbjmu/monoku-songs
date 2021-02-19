@@ -31,6 +31,7 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 # Application definition
 
 INSTALLED_APPS = [
+    'graphene_django',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,6 +44,10 @@ INSTALLED_APPS = [
     # Local
     'songs',
 ]
+
+GRAPHENE = {
+    'SCHEMA': 'main.schema.schema'
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

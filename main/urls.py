@@ -15,10 +15,13 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
+from graphene_django.views import GraphQLView
+from main.schema import schema
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('graphql/', GraphQLView.as_view(graphiql=True)),
     path("", include('songs.urls')),
 ]
 

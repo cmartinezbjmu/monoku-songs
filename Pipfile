@@ -16,6 +16,7 @@ pylint-plugin-utils = "*"
 coverage = "*"
 unittest-xml-reporting = "*"
 django-filter = "*"
+graphene-django = "*"
 
 [requires]
 python_version = "3.8"
