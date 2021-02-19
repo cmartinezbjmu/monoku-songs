@@ -1,0 +1,42 @@
+[
+    {
+        "pk": 1,
+        "model": "songs.Band",
+        "fields": {
+            "name": "Cristóbal Cid Santamaria",
+            "artist_id": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "songs.Band",
+        "fields": {
+            "name": "Juan Carlos Adadia",
+            "artist_id": 2
+        }
+    },
+    {
+        "pk": 3,
+        "model": "songs.Band",
+        "fields": {
+            "name": "Daniela Barrios Gilabert",
+            "artist_id": 3
+        }
+    },
+    {
+        "pk": 4,
+        "model": "songs.Band",
+        "fields": {
+            "name": "Eligia Llamas Menendez",
+            "artist_id": 4
+        }
+    },
+    {
+        "pk": 5,
+        "model": "songs.Band",
+        "fields": {
+            "name": "Reyes Collado-Ferrera",
+            "artist_id": 5
+        }
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "pk": 1,
+        "model": "songs.Artist",
+        "fields": {
+            "name": "Nayara Sarabia Coca"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "songs.Artist",
+        "fields": {
+            "name": "Bibiana Pinilla"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "songs.Artist",
+        "fields": {
+            "name": "Shawn Patel"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "songs.Artist",
+        "fields": {
+            "name": "Seve Jordán-Anaya"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "songs.Artist",
+        "fields": {
+            "name": "Eusebia Colom Valcárcel"
+        }
+    }
+]

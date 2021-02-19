@@ -1,0 +1,97 @@
+[
+    {
+        "pk": 1,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Phased optimizing superstructure",
+            "duration": "1:51",
+            "album_id": 1,
+            "genre_id": 1,
+            "subgenre_id": 1,
+            "similar_band": [6, 7, 8, 9, 10],
+            "instrumenst": "Bass Guitar; Electric Guitar; Electronic Drums; Electric Piano; Shakers Maracas; Percussion; Synthesizer; Strings; Cowbell",
+            "tags": "future nostalgia; Funk; Laid Back; vibe check; Electric; Driving"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Upgradable user-facing leverage",
+            "duration": "2:33",
+            "album_id": 1,
+            "genre_id": 1,
+            "subgenre_id": 1,
+            "similar_band": [11, 12, 13, 14, 15],
+            "tags": "future nostalgia; Building; Dance; Pop; fusion; Funk; Electric; Upbeat; Driving",
+            "instrumenst": "Electric Guitar; Bass Guitar; Synthesizer; Drums; Synth Pad; Percussion"
+        }
+    }, 
+    {
+        "pk": 3,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Visionary coherent leverage",
+            "duration": "1:31",
+            "album_id": 2,
+            "genre_id": 1,
+            "subgenre_id": 1,
+            "similar_band": [16, 17, 18, 19, 20],
+            "tags": "future nostalgia; Building; Driving; fusion; 80s synth; Dance; Electronic; Retrowave",
+            "instrumenst": "Synthesizer; Synth Pad; Bass Guitar; Drums; Keyboards; Percussion"
+        }
+    },        
+    {
+        "pk": 4,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Down-sized optimal Graphic Interface",
+            "duration": "1:40",
+            "album_id": 3,
+            "genre_id": 2,
+            "subgenre_id": 2,
+            "similar_band": [21, 22],
+            "instrumenst": "Bells; Brass Section; Electronic Drums; Synth Bass; Synth Pad; Synthesizer; Percussion",
+            "tags": "Hip Hop; Determined; Building; Suspense; Waiting; Impatience"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Switchable heuristic synergy",
+            "duration": "1:55",
+            "album_id": 2,
+            "genre_id": 1,
+            "subgenre_id": 1,
+            "instrumenst": "Synth Bass; Bass Guitar; Synthesizer; Synth Pad; Tambourine; Bongos; Drums; Electronic Drums; Piano; Sound Effects; Percussion",
+            "tags": "future nostalgia; Disco; fusion; Pop; Club; Funk; Electronic"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Versatile motivating strategy",
+            "duration": "0:31",
+            "album_id": 4,
+            "genre_id": 3,
+            "subgenre_id": 4,
+            "instrumenst": "Percussion",
+            "tags": "Determined; Building; Anthemic; Motivational; Improvement; challenging"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "songs.Song",
+        "fields": {
+            "name": "Right-sized multi-state access",
+            "duration": "1:01",
+            "album_id": 5,
+            "genre_id": 2,
+            "subgenre_id": 2,
+            "instrumenst": "Piano; Synth Bass; Electronic Drums; Organ; Choir; Strings; Sound Effects; Accordion; Percussion",
+            "tags": "Tense; Dramatic; Rhythmic; Emotional; Dynamic; reflective; hopeful"
+        }
+    }
+]

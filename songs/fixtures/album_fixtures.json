@@ -1,0 +1,47 @@
+[
+    {
+        "pk": 1,
+        "model": "songs.Album",
+        "fields": {
+            "name": "Verde pálido",
+            "artist_id": 1,
+            "band_id": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "songs.Album",
+        "fields": {
+            "name": "Marrón cuero",
+            "artist_id": 2,
+            "band_id": 2
+        }
+    },
+    {
+        "pk": 3,
+        "model": "songs.Album",
+        "fields": {
+            "name": "Lima",
+            "artist_id": 3,
+            "band_id": 3
+        }
+    },
+    {
+        "pk": 4,
+        "model": "songs.Album",
+        "fields": {
+            "name": "Gris",
+            "artist_id": 4,
+            "band_id": 4
+        }
+    },
+    {
+        "pk": 5,
+        "model": "songs.Album",
+        "fields": {
+            "name": "Rojo oscuro",
+            "artist_id": 5,
+            "band_id": 5
+        }
+    }    
+]

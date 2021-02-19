@@ -1,0 +1,37 @@
+[
+    {
+        "pk": 1,
+        "model": "songs.Subgenre",
+        "fields": {
+            "name": "Pop"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "songs.Subgenre",
+        "fields": {
+            "name": "Modern"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "songs.Subgenre",
+        "fields": {
+            "name": "None"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "songs.Subgenre",
+        "fields": {
+            "name": "Trip Hop"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "songs.Subgenre",
+        "fields": {
+            "name": "Contemporary"
+        }
+    }
+]
