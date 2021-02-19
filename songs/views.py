@@ -54,4 +54,4 @@ class SongViewSet(ModelViewSet):
     queryset = Song.objects.all()
     serializer_class = SongSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['genre', 'subgenre', 'similar_band']
+    filterset_fields = ['genre', 'subgenre', 'similar_band', 'album__band', 'album__artist']
