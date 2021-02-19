@@ -65,6 +65,8 @@ class Song(models.Model):
     genre = models.ForeignKey(Genre, on_delete=models.CASCADE, related_name="song_genre")
     subgenre = models.ForeignKey(Subgenre, on_delete=models.CASCADE, related_name="song_subgenre")
     similar_band = models.ManyToManyField(Band, related_name="similar_band_song")
+    instrumenst = models.CharField(max_length=500, blank=False, null=False)
+    tags = models.CharField(max_length=500, blank=True, null=True)
 
     class Meta:
         """Table name."""
